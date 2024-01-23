@@ -1,0 +1,37 @@
+ nohup python main.py  --ngames 5 --epoch 3000 --node 100 --savedname 'model_3000_5_100ba.pt' --training_data 'graph_dic_10_100ba' --training_reward_path 'train_3000_5_100ba_8.txt'  > log_model_3000_5_100ba.txt  &
+
+
+
+nohup python main.py  --ngames 9 --epoch 4000  --savedname 'model_4000_9_40bapler.pt' --training_data 'graph_dic_9_40bapler' --training_reward_path 'train_4000_9_40bapler.txt' > log_model_4000_9_40bapler.txt  &
+
+
+
+
+nohup python main.py  --ngames 5 --epoch 4000  --savedname 'model_4000_5_40er03.pt' --training_data 'graph_dic_10_40er03' --training_reward_path 'train_4000_10_40er03.txt' > log_model_4000_10_40er03.txt  &
+
+
+
+
+
+nohup python main.py  --ngames 10 --epoch 2000  --savedname 'model_2000_10_40ba_SIRAVG.pt' --training_data 'graph_dic_10_40ba' --training_reward_path 'train_2000_10_40ba_SIRAVG.txt' --environment_name 'SIRAVG'> log_model_2000_10_40ba_SIRAVG.txt  &
+
+
+nohup python main.py  --ngames 10 --epoch 2000  --savedname 'model_2000_10_40baer_SIRAVG.pt' --training_data 'graph_dic_10_40baer' --training_reward_path 'train_2000_10_40baer_SIRAVG.txt' --environment_name 'SIRAVG'> log_model_2000_10_40baer_SIRAVG.txt  &
+
+
+
+# add cost
+nohup python main.py  --ngames 9 --epoch 2000  --savedname 'model_2000_9_40bapler_SIRAVG.pt' --training_data 'graph_dic_9_40bapler' --training_reward_path 'train_2000_9_40bapler_SIRAVG.txt' --environment_name 'SIRAVG'> log_model_2000_9_40bapler_SIRAVG.txt  &
+
+
+
+
+
+nohup python main.py  --ngames 10 --epoch 2000  --savedname 'model_2000_10_40_pl4_09_SIR.pt' --training_data './data/graph_dic_10_40_pl4_09' --training_reward_path 'train_2000_10_40_pl4_09.txt' --environment_name 'SIR'> log_model_2000_10_40_pl4_09_SIR.txt  &
+
+
+
+nohup python main.py  --ngames 10 --epoch 2000  --savedname 'model_2000_community_100_8_4_07.pt' --training_data './data/graph_dic_community_100_8_4_07' --training_reward_path 'train_2000_10_community_100_8_4_07.txt' > log_model_2000_10_community_100_8_4_07.txt  &
+
+
+nohup python main.py  --ngames 10 --epoch 2000  --savedname 'model_2000_community_40_8_3_06.pt' --training_data './data/graph_dic_community_40_8_3_06' --training_reward_path 'train_2000_10_community_40_8_3_06.txt' --environment_name 'SIR' > log_model_2000_10_community_40_8_3_06.txt  &
